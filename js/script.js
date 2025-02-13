@@ -23,8 +23,6 @@ if (choice) {
         answer_no.style.position = "absolute";
         answer_no.style.left = `${newX}px`;
         answer_no.style.top = `${newY}px`;
-
-        console.log(`New X: ${newX}, New Y: ${newY}`);
     });
 }
 

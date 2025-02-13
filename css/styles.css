@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    /** Text Gradient Example */
+    font-size: 36px;
+    color: #c71585;
+    background-image: linear-gradient(
+        45deg,
+        #c71585 28%,
+        #e62092 72%,
+        #ff4d94 31%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    height: 100vh;
+
+    background-color: #fbda61;
+    background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+}
